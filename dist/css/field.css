@@ -1,0 +1,10 @@
+/* Nova Field CSS */
+.nova-country-flag {
+    height: 1.4rem;
+    width: 2.25rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
