@@ -27,10 +27,10 @@ class CountryFlag extends Field
     /**
      * Set the country name.
      *
-     * @param  string  $countryName
+     * @param  string|null  $countryName
      * @return $this
      */
-    public function withName(string $countryName)
+    public function withName(string|null $countryName)
     {
         return $this->withMeta(['countryName' => $countryName]);
     }
